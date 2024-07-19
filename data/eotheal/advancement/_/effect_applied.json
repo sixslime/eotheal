@@ -8,7 +8,7 @@
               "condition": "minecraft:entity_scores",
               "entity": "this",
               "scores": {
-                "_eotheal-healtick": 1
+                "_eotheal-healed": 1
               }
             },
             {

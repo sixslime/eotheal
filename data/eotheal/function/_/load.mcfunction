@@ -13,5 +13,6 @@ scoreboard players set *eotheal load-status 1
 # scoreboards
 scoreboard objectives add -eotheal dummy
 scoreboard objectives add --eotheal dummy
-scoreboard objectives add _eotheal-healtick dummy
+scoreboard objectives add _eotheal-healed dummy
+scoreboard objectives add _eotheal-heal_value dummy
 #scoreboard objectives add eotheal-scoreboard dummy
