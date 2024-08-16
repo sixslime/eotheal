@@ -7,6 +7,9 @@
 # Abstract?
 false
 
+# SNAPSHOT
+- update all attribute ids
+
 # Notes
 - inspired by https://github.com/XanBelOr/Minecraft-Simple-Custom-Heal
 
