@@ -8,7 +8,7 @@ execute unless score @s _eotheal-heal_value matches 1.. run return run function 
 
 effect give @s instant_health 1 28
 
-execute store result score *do.current_max -eotheal run attribute @s generic.max_health get 10000
+execute store result score *do.current_max -eotheal run attribute @s minecraft:max_health get 10000
 execute store result score *do.max_mod -eotheal run data get entity @s Health 10000
 scoreboard players operation *do.max_mod -eotheal += @s _eotheal-heal_value
 scoreboard players operation *do.max_mod -eotheal -= *do.current_max -eotheal
